@@ -1,0 +1,23 @@
+{
+  "name": "닌빈·하노이 여행 대시보드",
+  "short_name": "베트남여행",
+  "start_url": "/vietnam-travel-2026/",
+  "scope": "/vietnam-travel-2026/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#0A0A0A",
+  "icons": [
+    {
+      "src": "vietnam-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "vietnam-favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- 베트남 : 논라(nón lá) 삿갓 (표준 아이콘 규격 — 흰 바탕, 보라→파랑 그라데이션, 소프트 섀도) -->
+  <defs>
+    <linearGradient id="g" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5B8DEF"/>
+      <stop offset="55%" stop-color="#8F7BF3"/>
+      <stop offset="100%" stop-color="#C9A8F7"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="22" flood-color="#7B8CF0" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#FFFFFF"/>
+  <rect x="8" y="8" width="496" height="496" rx="104" fill="none" stroke="#EEEEF2" stroke-width="3"/>
+  <g filter="url(#soft)">
+    <path fill="url(#g)" d="M256 96 L440 344 Q448 356 434 360 Q256 414 78 360 Q64 356 72 344 Z"/>
+  </g>
+  <!-- 삿갓 살·끈 (흰색 반투명) -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.42" stroke-linecap="round">
+    <path d="M196 178 Q256 196 316 178" stroke-width="10"/>
+    <path d="M150 240 Q256 268 362 240" stroke-width="10"/>
+    <path d="M106 300 Q256 336 406 300" stroke-width="10"/>
+    <path d="M256 104 L256 380" stroke-width="7" stroke-opacity="0.25"/>
+  </g>
+  <path d="M176 382 Q256 452 336 382" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" opacity="0.7"/>
+</svg>
